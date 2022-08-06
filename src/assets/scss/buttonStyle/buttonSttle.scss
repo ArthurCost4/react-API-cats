@@ -1,0 +1,18 @@
+@import '../variablesAndFunc/index.scss';
+
+
+.buttons-cats{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid $lightGray;
+    border-radius: 10px;
+    button{
+        padding: .3rem;
+        color: white;
+        background-color: $darkRed;
+        margin: .3rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

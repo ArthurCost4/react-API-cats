@@ -1,0 +1,25 @@
+@mixin button($color:black, $backgroundColor:white) {
+    width: 200px;
+    height: 40px;
+    background-color: $backgroundColor;
+    border: none;
+    border-radius: 10px;
+    color: $color;
+  }
+@mixin displayFlex($flexDirection:row, $flexWrap:nowrap, $alignContent:normal, $justifyContent:normal, $alignItems:normal){
+    display: flex;
+    flex-direction: $flexDirection;
+    flex-wrap: $flexWrap;
+    align-content: $alignContent;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+  }
+
+  //variables
+
+$darkRed: #660D0D;
+$red: #B00C0C;
+$lightRed: #B32929;
+
+$dark: #000000;
+$lightGray: #5D6E62;

@@ -1,0 +1,15 @@
+.buttons-cats {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #5D6E62;
+  border-radius: 10px;
+}
+.buttons-cats button {
+  padding: 0.3rem;
+  color: white;
+  background-color: #660D0D;
+  margin: 0.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=buttonSttle.css.map */

@@ -1,0 +1,27 @@
+@import '../variablesAndFunc/index.scss';
+
+ul{
+    max-width: 800px;
+    margin: 3rem auto;
+
+    li{
+        list-style: none;
+        margin: 2rem 0;
+        padding: .3rem;
+        text-align: center;
+        border: 2px solid $lightGray;
+
+        h3{
+            font-size: x-large;
+            color: white;
+        }
+        p{
+            color: rgb(212, 206, 206);
+        }
+
+        span{
+            color: $lightRed;
+            font-size: larger;
+        }
+    }
+}

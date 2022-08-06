@@ -1,0 +1,22 @@
+ul {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+ul li {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0.3rem;
+  text-align: center;
+  border: 2px solid #5D6E62;
+}
+ul li h3 {
+  font-size: x-large;
+  color: white;
+}
+ul li p {
+  color: rgb(212, 206, 206);
+}
+ul li span {
+  color: #B32929;
+  font-size: larger;
+}/*# sourceMappingURL=cardsStyle.css.map */
